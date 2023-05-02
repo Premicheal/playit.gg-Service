@@ -1,0 +1,15 @@
+[Unit]
+Description=playit
+After=network.target
+
+[Service]
+ExecStart=/opt/playit/playit
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+IgnoreSIGPIPE=true
+Restart=always
+RestartSec=3
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
