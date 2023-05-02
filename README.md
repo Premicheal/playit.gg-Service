@@ -16,4 +16,4 @@ The output should look like this:
 
 ![image](https://user-images.githubusercontent.com/35305177/235584626-89cc3cb9-c109-4526-8268-8f363779057b.png)
 
-
+playit should now start and on boot and restart after crashes.
